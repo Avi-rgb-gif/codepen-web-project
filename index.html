@@ -1,0 +1,120 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG 15</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">
+            <span class="logo-badge">SDG 15</span> 
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#overview">Overview</a>
+            <a href="#causes">Causes</a>
+            <a href="#todo">Take Action</a>
+            <a href="#action" class="header-cta">Feedback</a>
+          <div class="nav-indicator"></div>
+        </nav>
+    </header>
+
+    <!-- HOME BANNER -->
+    <main id="home">
+        <div class="hero-content">
+            <span class="hero-tag">LIFE ON LAND:</span>
+            <h1>Deforestation & Urban Sprawl</h1>
+            <p>As concrete boundaries expand, our planet's green lungs are rapidly disappearing—begging the question: can humanity survive the very environments we are building to sustain ourselves?</p>
+            <div class="hero-buttons">
+                <a href="#overview" class="btn-primary">Examine data</a>
+                <a href="#action" class="btn-secondary">Submit Feedback</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- SCROLLING CONTENT -->
+    <div class="page-content">
+
+        <!-- OVERVIEW -->
+        <section id="overview" class="content-section">
+            <div class="section-container">
+                <div class="text-block">
+                    <span class="section-badge">01 . ---------------------------------------------------------------------------------------</span>
+                    <h2>Overview</h2>
+                    <p>Urban sprawl and deforestation are deeply interconnected crises driven by low-density, car-dependent development that pushes city borders into wildlands. This expansion permanently replaces complex forest ecosystems with concrete and asphalt, destroying vital carbon sinks while causing severe habitat fragmentation that disrupts wildlife migration and heightens wildfire risks. On a global scale, clearing these forests releases massive amounts of carbon into the atmosphere, while the resulting sprawling communities lock in high fossil fuel emissions from longer daily commutes and intensify localized urban heat island effects. Mitigating these dual environmental threats requires a shift toward smart growth policies, pioneered by cities like Portland and Seoul, which use strict legal boundaries to halt outward growth. By combining these boundaries with economic incentives, such as: upzoning for high-density housing, offering tax exemptions for urban infill projects, and enacting split-rate property taxes; municipalities can successfully absorb growing populations inward while permanently protecting peripheral forest ecosystems.</p>
+                  <span class="section-badge">--------------------------------------------------------------------------------------------</span>
+                </div>
+                <div class="image-block">
+                    <img src="https://images.pexels.com/photos/13248795/pexels-photo-13248795.jpeg" alt="Aerial view of deforested landscape meeting city line" class="aesthetic-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- CAUSES -->
+        <section id="causes" class="content-section flipped">
+            <div class="section-container">
+                <div class="image-block">
+                    <img src="https://images.pexels.com/photos/32228687/pexels-photo-32228687.jpeg" alt="Construction machinery clearing forest land" class="aesthetic-img">
+                </div>
+                <div class="text-block">
+                    <span class="section-badge">02 . ---------------------------------------------------------------------------------------</span>
+                    <h2>Causes</h2>
+                    <p>The outward expansion of cities into natural landscapes is driven by deeply embedded systemic incentives, where clearing peripheral forests is more profitable and legally straightforward than redeveloping urban footprints. This destruction is fueled by four distinct socioeconomic and institutional drivers:</p>
+<h3>• The Suburban Ideal: </h3> <p>Cultural demands for single-family homes with private yards create an insatiable market for low-density living. Because land prices drop drastically further from the metropolitan core, developers target cheap peripheral forests to build highly profitable, spacious residential tracts that are financially accessible to families.</p>
+<h3>• Subsidized Automobile Infrastructure:</h3> <p>Heavy government investment in highways and outer ring roads eliminates the geographic friction of distance, allowing commuters to live far from work. These high-speed corridors act as physical conduits for destruction, making distant woodlands highly accessible and inviting commercial and residential sprawl.</p>
+<h3>• Rigid Single-Use Zoning:</h3> <p>Traditional, exclusionary municipal planning frameworks legally lock the vast majority of residential land into low-density, single-family categories. This regulatory bottleneck prohibits vertical growth or mixed-use density within the city, forcing growing populations to leapfrog outward into surrounding ecosystems.</p>
+<h3>• Economic Succession:</h3> <p>Global commodity markets and extractive industries—such as commercial logging, mining, and large-scale agriculture—initiate the first waves of clearing. Once these industries degrade the forest and establish basic road grids, real estate speculators buy the cheap, cleared parcels and lobby for urban rezoning, locking in a permanent concrete footprint.</p>
+
+                  <span class="section-badge">--------------------------------------------------------------------------------------------</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: TAKE ACTION -->
+        <section id="todo" class="content-section">
+            <div class="section-container">
+                <div class="text-block">
+                    <span class="section-badge">03 . ---------------------------------------------------------------------------------------</span>
+                    <h2>Take Action</h2>
+                    <p>Mitigating this crisis requires active Urban Growth Boundaries (UGBs) that mandate strict visual limits on city sprawl.</p>
+                    <p>By enforcing density quotas, integrating extensive vertical green infrastructure within existing city sectors, and designating strict wildlife protection zones, we can sustain modern human developments without clearing the primary forests we rely on to breathe.</p>
+                  <span class="section-badge">--------------------------------------------------------------------------------------------</span>
+                </div>
+                <div class="image-block">
+                    <img src="https://images.pexels.com/photos/12377231/pexels-photo-12377231.jpeg" alt="Thick deep forest landscape" class="aesthetic-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- FEEDBACK -->
+        <section id="action" class="content-section action-banner">
+            <div class="action-card">
+                
+                <h2>Feedbacks and Comments</h2>
+                <p>Help us improve! Share your feedback, report content errors, or suggest data updates below. </p>
+                
+                <!-- JAVA -->
+                <form action="http://localhost:8080/submit-feedback" method="POST" class="feedback-form">
+                    <div class="form-group">
+    <input type="text" name="userName" placeholder="Username" required class="form-input">
+</div>
+<div class="form-group">
+    <textarea name="userMessage" placeholder="Leave your comment or feedback here" required class="form-input textarea"></textarea>
+</div>
+
+
+                    <button type="submit" class="btn-action-trigger">Submit Feedback/Comment</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
+
+
